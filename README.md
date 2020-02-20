@@ -96,7 +96,7 @@ utilizza la funzione ```reportData()``` per inviare i dati al broker MQTT.
 
 
 Per la documentazione dettagliata del codice (creata da doxygen) 
-visitare [questa pagina](doc/html/index.html)
+visitare [questa pagina](https://progetto201.github.io/dataclient-dht22/doc/html/index.html)
 
 ### Dettagli funzioni
 

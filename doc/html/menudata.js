@@ -21,4 +21,25 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Pagina Principale",url:"index.html"}]}
+{text:"Pagina Principale",url:"index.html"},
+{text:"File",url:"files.html",children:[
+{text:"Elenco dei file",url:"files.html"},
+{text:"Elementi dei file",url:"globals.html",children:[
+{text:"Tutto",url:"globals.html",children:[
+{text:"c",url:"globals.html#index_c"},
+{text:"d",url:"globals.html#index_d"},
+{text:"e",url:"globals.html#index_e"},
+{text:"h",url:"globals.html#index_h"},
+{text:"i",url:"globals.html#index_i"},
+{text:"l",url:"globals.html#index_l"},
+{text:"m",url:"globals.html#index_m"},
+{text:"n",url:"globals.html#index_n"},
+{text:"o",url:"globals.html#index_o"},
+{text:"p",url:"globals.html#index_p"},
+{text:"r",url:"globals.html#index_r"},
+{text:"s",url:"globals.html#index_s"},
+{text:"t",url:"globals.html#index_t"},
+{text:"w",url:"globals.html#index_w"}]},
+{text:"Funzioni",url:"globals_func.html"},
+{text:"Variabili",url:"globals_vars.html"},
+{text:"Definizioni",url:"globals_defs.html"}]}]}]}
