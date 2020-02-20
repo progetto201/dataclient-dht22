@@ -1,0 +1,7 @@
+<map id="bin/dataclient&#45;dht22.ino" name="bin/dataclient&#45;dht22.ino">
+<area shape="rect" id="node1" title="DATACLIENT&#45;DHT22: invia i dati recuperati dal dht22 al raspberry via MQTT." alt="" coords="139,5,295,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,109,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="133,80,192,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="216,80,331,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="355,80,467,107"/>
+</map>
