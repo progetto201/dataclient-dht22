@@ -377,7 +377,7 @@ void reportData(float t_humidity, float t_temp, int t_rssi){
   size_t n = serializeJson(jsonData, jsonBuffer);
 
   // invia stringa JSON al broker mqtt
-  if (client.publish(data_topic, jsonBuffer, n)){
+  if (client.publish(data_topic, (uint8_t*)jsonBuffer, n, false)){
     if(serialDebug){
       Serial.print(F("Dati inviati con successo al topic: "));
       Serial.println(data_topic);
