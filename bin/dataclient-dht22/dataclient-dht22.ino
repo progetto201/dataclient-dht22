@@ -39,8 +39,8 @@ template <typename T, int N> char(&dim_helper(T(&)[N]))[N];
 // ********************* DEFINIZIONI/VARIABILI *********************
 
   // VARIABILI DEBUG
-#define dhtConnected false //!< true = DHT22 utilizzabile/connesso
-#define serialDebug true //!< true = visualizza messaggi di debug attraverso comunicazione seriale
+#define dhtConnected true //!< true = DHT22 utilizzabile/connesso
+#define serialDebug false //!< true = visualizza messaggi di debug attraverso comunicazione seriale
 
 #define DHTPIN 4       //!< pin dato del DHT22
 #define DHTTYPE DHT22  //!< tipo di sensore DHT (DHT22)
@@ -68,8 +68,8 @@ int timeToWait = 2000;      //!< variabile tempo da aspettare per interrogare DH
 const char* WIFI_SSID = "nameofnetwork"; //!< SSID access point
 const char* WIFI_PASS = "longerthan8charspassword"; //!< Passphrase access point
 
-char ipAddr[16];   //!< contiene IP address
-char macAddr[18];  //!< contiene MAC address
+char ipAddr[16];          //!< contiene IP address
+char macAddr[18] = {0} ;  //!< contiene MAC address
 
 // ********************* OGGETTI *********************
 
@@ -151,7 +151,7 @@ void WiFiconn() {
 }
 
 
-void macAddrToString(byte *mac, char *str) {
+void macAddrToString(byte *mac, char *macAddr) {
   /**
    * Converte indirizzo MAC in una stringa. 
    * 
@@ -162,19 +162,23 @@ void macAddrToString(byte *mac, char *str) {
    * > L'ultimo ":" viene sostituito da "\0"
    * 
    * @param mac Puntatore a un array di byte con indirizzo MAC
-   * @param str Puntatore a una stringa
+   * @param macAddr Puntatore a una stringa
   */
-  for(int i = 0; i<6; i++) {
-    byte digit;
-    digit = (*mac >> 8) & 0xF;
-    *str++ = (digit < 10 ? '0' : 'A'-10) + digit;
-    digit = (*mac) & 0xF;
-    *str++ = (digit < 10 ? '0' : 'A'-10) + digit;
-    *str++ = ':';
-    mac ++;
+
+  int j = 0;
+  
+  for (int i = 0; i < 6; i++) {
+    j = i * 3;
+    macAddr[j] = (((mac[i] & 0xF0)>>4)&0xF) ;
+    macAddr[j] += (macAddr[j] <= 9) ? '0' : ('A' - 10);
+    j++;
+    macAddr[j] = (mac[i] & 0x0F);
+    macAddr[j] += (macAddr[j] <= 9) ? '0' : ('A' - 10);
+    j++;
+    macAddr[j] = ':';
   }
   // sostituisci ultimi due punti con nul
-  str[-1] = '\0';
+  macAddr[j] = '\0';
 }
 
 

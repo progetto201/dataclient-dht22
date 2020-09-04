@@ -97,10 +97,10 @@ Grafo delle dipendenze di inclusione per dataclient-dht22.ino:</div>
 Definizioni</h2></td></tr>
 <tr class="memitem:ad43d79e2dc6c459e188e5540e0f30129"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#ad43d79e2dc6c459e188e5540e0f30129">dim</a>(x)&#160;&#160;&#160;(sizeof(<a class="el" href="dataclient-dht22_8ino.html#a4eabb42c6f4925264712f1141e5fb615">dim_helper</a>(x)))</td></tr>
 <tr class="separator:ad43d79e2dc6c459e188e5540e0f30129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a715bd4a5aba9545ff96c20f5026f75db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a715bd4a5aba9545ff96c20f5026f75db">dhtConnected</a>&#160;&#160;&#160;false</td></tr>
+<tr class="memitem:a715bd4a5aba9545ff96c20f5026f75db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a715bd4a5aba9545ff96c20f5026f75db">dhtConnected</a>&#160;&#160;&#160;true</td></tr>
 <tr class="memdesc:a715bd4a5aba9545ff96c20f5026f75db"><td class="mdescLeft">&#160;</td><td class="mdescRight">true = DHT22 utilizzabile/connesso  <a href="dataclient-dht22_8ino.html#a715bd4a5aba9545ff96c20f5026f75db">Continua...</a><br /></td></tr>
 <tr class="separator:a715bd4a5aba9545ff96c20f5026f75db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af99a155b83efd55836851d9737899e55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#af99a155b83efd55836851d9737899e55">serialDebug</a>&#160;&#160;&#160;true</td></tr>
+<tr class="memitem:af99a155b83efd55836851d9737899e55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#af99a155b83efd55836851d9737899e55">serialDebug</a>&#160;&#160;&#160;false</td></tr>
 <tr class="memdesc:af99a155b83efd55836851d9737899e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">true = visualizza messaggi di debug attraverso comunicazione seriale  <a href="dataclient-dht22_8ino.html#af99a155b83efd55836851d9737899e55">Continua...</a><br /></td></tr>
 <tr class="separator:af99a155b83efd55836851d9737899e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757bb4e2bff6148de6ef3989b32a0126"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a757bb4e2bff6148de6ef3989b32a0126">DHTPIN</a>&#160;&#160;&#160;4</td></tr>
@@ -123,8 +123,8 @@ Funzioni</h2></td></tr>
 <tr class="separator:aee63e84c606cfaefce454689113c636c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26a10865a648cd7d2bc8bc9cedf7fbd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a26a10865a648cd7d2bc8bc9cedf7fbd7">WiFiconn</a> ()</td></tr>
 <tr class="separator:a26a10865a648cd7d2bc8bc9cedf7fbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab521726203688c14cf1da7acaf2ff80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#aab521726203688c14cf1da7acaf2ff80">macAddrToString</a> (byte *mac, char *str)</td></tr>
-<tr class="separator:aab521726203688c14cf1da7acaf2ff80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74eb6675a8d95cac4958af17077d1f40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a74eb6675a8d95cac4958af17077d1f40">macAddrToString</a> (byte *mac, char *<a class="el" href="dataclient-dht22_8ino.html#adf337f3fdeade1f6e95b99545888802d">macAddr</a>)</td></tr>
+<tr class="separator:a74eb6675a8d95cac4958af17077d1f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c9dcfb4015f19781a9988b72d1f0400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a9c9dcfb4015f19781a9988b72d1f0400">MQTTconn</a> ()</td></tr>
 <tr class="separator:a9c9dcfb4015f19781a9988b72d1f0400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150ffb0f8328a3a283e2cb8933c89b48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#a150ffb0f8328a3a283e2cb8933c89b48">present</a> ()</td></tr>
@@ -185,7 +185,7 @@ Variabili</h2></td></tr>
 <tr class="memitem:ac5a38fc25a4e37970a393d8e794b37c4"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#ac5a38fc25a4e37970a393d8e794b37c4">ipAddr</a> [16]</td></tr>
 <tr class="memdesc:ac5a38fc25a4e37970a393d8e794b37c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">contiene IP address  <a href="dataclient-dht22_8ino.html#ac5a38fc25a4e37970a393d8e794b37c4">Continua...</a><br /></td></tr>
 <tr class="separator:ac5a38fc25a4e37970a393d8e794b37c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf337f3fdeade1f6e95b99545888802d"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#adf337f3fdeade1f6e95b99545888802d">macAddr</a> [18]</td></tr>
+<tr class="memitem:adf337f3fdeade1f6e95b99545888802d"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#adf337f3fdeade1f6e95b99545888802d">macAddr</a> [18] = {0}</td></tr>
 <tr class="memdesc:adf337f3fdeade1f6e95b99545888802d"><td class="mdescLeft">&#160;</td><td class="mdescRight">contiene MAC address  <a href="dataclient-dht22_8ino.html#adf337f3fdeade1f6e95b99545888802d">Continua...</a><br /></td></tr>
 <tr class="separator:adf337f3fdeade1f6e95b99545888802d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd77e757e4b3bb6f1e4b42b21ea9e040"><td class="memItemLeft" align="right" valign="top">WiFiClient&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dataclient-dht22_8ino.html#abd77e757e4b3bb6f1e4b42b21ea9e040">espClient</a></td></tr>
@@ -198,7 +198,7 @@ Variabili</h2></td></tr>
 <li>&lt;timeToWait&gt; deve essere almeno 2000 [ms]</li>
 </ul>
 <p>poi memorizza in &lt;macAddr&gt; l'indirizzo mac del dispositivo. </p><blockquote class="doxtable">
-<p>Per farlo si usa la funzione <a class="el" href="dataclient-dht22_8ino.html#aab521726203688c14cf1da7acaf2ff80">macAddrToString()</a> </p>
+<p>Per farlo si usa la funzione <a class="el" href="dataclient-dht22_8ino.html#a74eb6675a8d95cac4958af17077d1f40">macAddrToString()</a> </p>
 </blockquote>
 <blockquote class="doxtable">
 <p>Formato: @codeAB:AB:AB:AB:AB:AB </p>
@@ -240,7 +240,7 @@ Variabili</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define dhtConnected&#160;&#160;&#160;false</td>
+          <td class="memname">#define dhtConnected&#160;&#160;&#160;true</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,7 +256,7 @@ Variabili</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define serialDebug&#160;&#160;&#160;true</td>
+          <td class="memname">#define serialDebug&#160;&#160;&#160;false</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -418,8 +418,8 @@ Questo è il grafo dei chiamanti di questa funzione:</div>
 
 </div>
 </div>
-<a id="aab521726203688c14cf1da7acaf2ff80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab521726203688c14cf1da7acaf2ff80">&#9670;&nbsp;</a></span>macAddrToString()</h2>
+<a id="a74eb6675a8d95cac4958af17077d1f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74eb6675a8d95cac4958af17077d1f40">&#9670;&nbsp;</a></span>macAddrToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -434,7 +434,7 @@ Questo è il grafo dei chiamanti di questa funzione:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>str</em>&#160;</td>
+          <td class="paramname"><em>macAddr</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -450,15 +450,15 @@ Questo è il grafo dei chiamanti di questa funzione:</div>
 <dl class="params"><dt>Parametri</dt><dd>
   <table class="params">
     <tr><td class="paramname">mac</td><td>Puntatore a un array di byte con indirizzo MAC </td></tr>
-    <tr><td class="paramname">str</td><td>Puntatore a una stringa</td></tr>
+    <tr><td class="paramname">macAddr</td><td>Puntatore a una stringa</td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Questo è il grafo dei chiamanti di questa funzione:</div>
 <div class="dyncontent">
-<div class="center"><img src="dataclient-dht22_8ino_aab521726203688c14cf1da7acaf2ff80_icgraph.png" border="0" usemap="#dataclient-dht22_8ino_aab521726203688c14cf1da7acaf2ff80_icgraph" alt=""/></div>
-<map name="dataclient-dht22_8ino_aab521726203688c14cf1da7acaf2ff80_icgraph" id="dataclient-dht22_8ino_aab521726203688c14cf1da7acaf2ff80_icgraph">
+<div class="center"><img src="dataclient-dht22_8ino_a74eb6675a8d95cac4958af17077d1f40_icgraph.png" border="0" usemap="#dataclient-dht22_8ino_a74eb6675a8d95cac4958af17077d1f40_icgraph" alt=""/></div>
+<map name="dataclient-dht22_8ino_a74eb6675a8d95cac4958af17077d1f40_icgraph" id="dataclient-dht22_8ino_a74eb6675a8d95cac4958af17077d1f40_icgraph">
 <area shape="rect" title=" " alt="" coords="108,5,231,32"/>
 <area shape="rect" href="dataclient-dht22_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,60,32"/>
 </map>
@@ -686,7 +686,7 @@ Questo è il grafo delle chiamate per questa funzione:</div>
 <div class="center"><img src="dataclient-dht22_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph.png" border="0" usemap="#dataclient-dht22_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph" alt=""/></div>
 <map name="dataclient-dht22_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph" id="dataclient-dht22_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,60,32"/>
-<area shape="rect" href="dataclient-dht22_8ino.html#aab521726203688c14cf1da7acaf2ff80" title=" " alt="" coords="108,5,231,32"/>
+<area shape="rect" href="dataclient-dht22_8ino.html#a74eb6675a8d95cac4958af17077d1f40" title=" " alt="" coords="108,5,231,32"/>
 </map>
 </div>
 
@@ -976,7 +976,7 @@ Questo è il grafo delle chiamate per questa funzione:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char macAddr[18]</td>
+          <td class="memname">char macAddr[18] = {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1004,9 +1004,10 @@ Questo è il grafo delle chiamate per questa funzione:</div>
 </div><!-- contents -->
 <div class="ttc" id="adataclient-dht22_8ino_html_a7d012d8689a06650286105a11fe38024"><div class="ttname"><a href="dataclient-dht22_8ino.html#a7d012d8689a06650286105a11fe38024">mqttUser</a></div><div class="ttdeci">const char * mqttUser</div><div class="ttdoc">utente mqtt</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:53</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_afc1d28cfbce795d6ea954ebe725241f5"><div class="ttname"><a href="dataclient-dht22_8ino.html#afc1d28cfbce795d6ea954ebe725241f5">temperature</a></div><div class="ttdeci">float temperature</div><div class="ttdoc">temperatura Celsius (default 12.34 come test)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:62</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_a9c9dcfb4015f19781a9988b72d1f0400"><div class="ttname"><a href="dataclient-dht22_8ino.html#a9c9dcfb4015f19781a9988b72d1f0400">MQTTconn</a></div><div class="ttdeci">void MQTTconn()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:181</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_ac3a129f66dc859e2b7279565f4e1de78"><div class="ttname"><a href="dataclient-dht22_8ino.html#ac3a129f66dc859e2b7279565f4e1de78">callback</a></div><div class="ttdeci">void callback(char *topic, byte *payload, unsigned int length)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:288</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_afe461d27b9c48d5921c00d521181f12f"><div class="ttname"><a href="dataclient-dht22_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a></div><div class="ttdeci">void loop()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:428</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_a9c9dcfb4015f19781a9988b72d1f0400"><div class="ttname"><a href="dataclient-dht22_8ino.html#a9c9dcfb4015f19781a9988b72d1f0400">MQTTconn</a></div><div class="ttdeci">void MQTTconn()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:185</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_a74eb6675a8d95cac4958af17077d1f40"><div class="ttname"><a href="dataclient-dht22_8ino.html#a74eb6675a8d95cac4958af17077d1f40">macAddrToString</a></div><div class="ttdeci">void macAddrToString(byte *mac, char *macAddr)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:154</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_ac3a129f66dc859e2b7279565f4e1de78"><div class="ttname"><a href="dataclient-dht22_8ino.html#ac3a129f66dc859e2b7279565f4e1de78">callback</a></div><div class="ttdeci">void callback(char *topic, byte *payload, unsigned int length)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:292</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_afe461d27b9c48d5921c00d521181f12f"><div class="ttname"><a href="dataclient-dht22_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a></div><div class="ttdeci">void loop()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:432</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_a4eabb42c6f4925264712f1141e5fb615"><div class="ttname"><a href="dataclient-dht22_8ino.html#a4eabb42c6f4925264712f1141e5fb615">dim_helper</a></div><div class="ttdeci">char(&amp; dim_helper(T(&amp;)[N]))[N]</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_ae8f5cd957935271a64234fe32a13119c"><div class="ttname"><a href="dataclient-dht22_8ino.html#ae8f5cd957935271a64234fe32a13119c">optMainTopic</a></div><div class="ttdeci">char optMainTopic[9]</div><div class="ttdoc">topic principale opzioni</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:57</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_adf337f3fdeade1f6e95b99545888802d"><div class="ttname"><a href="dataclient-dht22_8ino.html#adf337f3fdeade1f6e95b99545888802d">macAddr</a></div><div class="ttdeci">char macAddr[18]</div><div class="ttdoc">contiene MAC address</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:72</div></div>
@@ -1019,8 +1020,7 @@ Questo è il grafo delle chiamate per questa funzione:</div>
 <div class="ttc" id="adataclient-dht22_8ino_html_a26a10865a648cd7d2bc8bc9cedf7fbd7"><div class="ttname"><a href="dataclient-dht22_8ino.html#a26a10865a648cd7d2bc8bc9cedf7fbd7">WiFiconn</a></div><div class="ttdeci">void WiFiconn()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:85</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_ad7a1df263f6f823242a112ec11297434"><div class="ttname"><a href="dataclient-dht22_8ino.html#ad7a1df263f6f823242a112ec11297434">dht</a></div><div class="ttdeci">DHT dht(DHTPIN, DHTTYPE)</div><div class="ttdoc">creazione oggetto dht</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_ac5a38fc25a4e37970a393d8e794b37c4"><div class="ttname"><a href="dataclient-dht22_8ino.html#ac5a38fc25a4e37970a393d8e794b37c4">ipAddr</a></div><div class="ttdeci">char ipAddr[16]</div><div class="ttdoc">contiene IP address</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:71</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_aab521726203688c14cf1da7acaf2ff80"><div class="ttname"><a href="dataclient-dht22_8ino.html#aab521726203688c14cf1da7acaf2ff80">macAddrToString</a></div><div class="ttdeci">void macAddrToString(byte *mac, char *str)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:154</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_a4fc01d736fe50cf5b977f755b675f11d"><div class="ttname"><a href="dataclient-dht22_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a></div><div class="ttdeci">void setup()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:395</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_a4fc01d736fe50cf5b977f755b675f11d"><div class="ttname"><a href="dataclient-dht22_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a></div><div class="ttdeci">void setup()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:399</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_aba729b10c25de58d10906ff55bfedfe6"><div class="ttname"><a href="dataclient-dht22_8ino.html#aba729b10c25de58d10906ff55bfedfe6">nodeType</a></div><div class="ttdeci">const int nodeType</div><div class="ttdoc">tipo di nodo</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:48</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_abd670c5c7d88e028d53f03b2ff07b720"><div class="ttname"><a href="dataclient-dht22_8ino.html#abd670c5c7d88e028d53f03b2ff07b720">timeToWait</a></div><div class="ttdeci">int timeToWait</div><div class="ttdoc">variabile tempo da aspettare per interrogare DHT (minimo 2000 [ms])</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:65</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_a586c86c64e7d30517aeee0fe47a25ae4"><div class="ttname"><a href="dataclient-dht22_8ino.html#a586c86c64e7d30517aeee0fe47a25ae4">WIFI_SSID</a></div><div class="ttdeci">const char * WIFI_SSID</div><div class="ttdoc">SSID access point.</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:68</div></div>
@@ -1029,8 +1029,8 @@ Questo è il grafo delle chiamate per questa funzione:</div>
 <div class="ttc" id="adataclient-dht22_8ino_html_ab0e976d2d404b48fc6943d0eff7a5995"><div class="ttname"><a href="dataclient-dht22_8ino.html#ab0e976d2d404b48fc6943d0eff7a5995">mqttPort</a></div><div class="ttdeci">const int mqttPort</div><div class="ttdoc">porta mqtt</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:52</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_aa0d894a281cd4525d1dad48b1a7161ef"><div class="ttname"><a href="dataclient-dht22_8ino.html#aa0d894a281cd4525d1dad48b1a7161ef">WIFI_PASS</a></div><div class="ttdeci">const char * WIFI_PASS</div><div class="ttdoc">Passphrase access point.</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:69</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_ad43d79e2dc6c459e188e5540e0f30129"><div class="ttname"><a href="dataclient-dht22_8ino.html#ad43d79e2dc6c459e188e5540e0f30129">dim</a></div><div class="ttdeci">#define dim(x)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:30</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_a150ffb0f8328a3a283e2cb8933c89b48"><div class="ttname"><a href="dataclient-dht22_8ino.html#a150ffb0f8328a3a283e2cb8933c89b48">present</a></div><div class="ttdeci">void present()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:236</div></div>
-<div class="ttc" id="adataclient-dht22_8ino_html_a6e502e8e735f761ce96e1744f8cdbba0"><div class="ttname"><a href="dataclient-dht22_8ino.html#a6e502e8e735f761ce96e1744f8cdbba0">reportData</a></div><div class="ttdeci">void reportData(float t_humidity, float t_temp, int t_rssi)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:350</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_a150ffb0f8328a3a283e2cb8933c89b48"><div class="ttname"><a href="dataclient-dht22_8ino.html#a150ffb0f8328a3a283e2cb8933c89b48">present</a></div><div class="ttdeci">void present()</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:240</div></div>
+<div class="ttc" id="adataclient-dht22_8ino_html_a6e502e8e735f761ce96e1744f8cdbba0"><div class="ttname"><a href="dataclient-dht22_8ino.html#a6e502e8e735f761ce96e1744f8cdbba0">reportData</a></div><div class="ttdeci">void reportData(float t_humidity, float t_temp, int t_rssi)</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:354</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_a8c2ce2bfcc55084c237040e1712f2ce6"><div class="ttname"><a href="dataclient-dht22_8ino.html#a8c2ce2bfcc55084c237040e1712f2ce6">prMainTopic</a></div><div class="ttdeci">char prMainTopic[14]</div><div class="ttdoc">topic principale presentazione</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:56</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_abd77e757e4b3bb6f1e4b42b21ea9e040"><div class="ttname"><a href="dataclient-dht22_8ino.html#abd77e757e4b3bb6f1e4b42b21ea9e040">espClient</a></div><div class="ttdeci">WiFiClient espClient</div><div class="ttdoc">crea un client WiFI</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:79</div></div>
 <div class="ttc" id="adataclient-dht22_8ino_html_af99a155b83efd55836851d9737899e55"><div class="ttname"><a href="dataclient-dht22_8ino.html#af99a155b83efd55836851d9737899e55">serialDebug</a></div><div class="ttdeci">#define serialDebug</div><div class="ttdoc">true = visualizza messaggi di debug attraverso comunicazione seriale</div><div class="ttdef"><b>Definition:</b> dataclient-dht22.ino:43</div></div>
